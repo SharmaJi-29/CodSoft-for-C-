@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a , b; // Two numbers in which we perform some calculating tasks
+    char oper ;
+    //Initiallize all three variables
+    cout << "Enter One number : ";
+    cin >> a;
+    cout << "Enter another number : ";
+    cin >> b;
+    cout << "Enter operator which operation will be performed (+ - * / %) : ";
+    cin >> oper;
+
+    if (oper == '+')
+        cout << "Sum of two numbers ars : " << a + b << endl;
+    else if (oper == '-')
+        cout << "Difference between two numbers are : " << a - b << endl;
+    else if (oper == '*')
+        cout << "Multiplication of Two numbers are : "<< a * b << endl;
+    else if (oper == '/')
+        cout << "Division of two numbers are : " << a/b << endl;
+    else if (oper == '%')
+        cout << "Module operator of two numbers are : "<< a % b << endl;
+    
+    return 0;
+    
+}
